@@ -25,23 +25,23 @@
       - readline
       - openssl
       - { name: openssl, state: linked, install_options: force }
-      - ansible
       - git
-      - git-flow
       - heroku-toolbelt
       - peco
-      - nvm
       - rbenv
       - ruby-build
       - the_silver_searcher
-      - vim
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
+      - wget
+      - tmux
+      - phantomjs
+      - reattach-to-user-namespace
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
-      - caskroom/homebrew-versions
+      - caskroom/versions
 
     # Managed Homebrew Cask packages.
     #
@@ -58,9 +58,17 @@
       - iterm2
       - java6
       - karabiner
-      - phpstorm
       - rubymine
       - slack
-      - sublime-text
-      - vagrant
-      - virtualbox
+      - sublime-text3
+      - macvim-kaoriya
+      - appcleaner
+      - bettertouchtool
+      - xtrafinder
+      - skitch
+      - rubymine
+      - webstorm
+      - dash
+      - flashlight
+      - hyperswitch
+      - licecap
