@@ -5,6 +5,8 @@
   roles:
     - homebrew
     - homebrew-cask
+    - oh-my-zsh
+    - ricty
   vars:
     # Tap external Homebrew repositories.
     #
@@ -42,7 +44,7 @@
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
       - caskroom/versions
-
+      - sanemat/font # for ricty
     # Managed Homebrew Cask packages.
     #
     # e.g.
