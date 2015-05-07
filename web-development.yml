@@ -13,6 +13,7 @@
     # e.g.
     # - homebrew/binary
     homebrew_repositories:
+      - macoshita/custom
 
     # Managed Homebrew packages.
     #
@@ -36,8 +37,8 @@
       - zsh
       - zsh-completions
       - zsh-syntax-highlighting
+      - tmux-patched
       - wget
-      - tmux
       - phantomjs
       - reattach-to-user-namespace
       - nodebrew
