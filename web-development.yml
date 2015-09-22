@@ -80,3 +80,5 @@
       - virtualbox
       - vagrant
       - divvy
+      - dropbox
+      - evernote
