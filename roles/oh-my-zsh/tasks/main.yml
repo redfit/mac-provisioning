@@ -1,8 +1,8 @@
 ---
 - name: zshrc
-  file: >
-    path=~/.zshrc
-    state=touch
+  command: 'touch ~/.zshrc'
+  args:
+      creates: ~/.zshrc
 - name: install oh-my-zsh
   shell: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
   args:
